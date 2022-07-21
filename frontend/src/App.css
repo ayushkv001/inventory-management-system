@@ -1,0 +1,31 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(200,255,200,0.2);
+  border:3px solid white;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+}
+form{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  margin: 10px;
+  padding: 10px;
+}
+button{
+  background-color: blue;
+  color: azure;
+  font-size: 20px;
+  padding: 10px;
+  border:1px solid white;
+  border-radius: 5px;
+  width:100px;
+}
